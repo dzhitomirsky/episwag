@@ -1,0 +1,41 @@
+{
+  "name": "episwag",
+  "version": "0.0.1",
+  "description": "Swagger documentation generation for epilogue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha 'specs/**/*.spec.js'",
+    "lint": "./node_modules/.bin/eslint src specs"
+  },
+  "keywords": [
+    "node",
+    "sequelize",
+    "epiloge",
+    "REST",
+    "documentation",
+    "swagger"
+  ],
+  "author": "Daniel Zhitomirsky (daniilzhitomirsky@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "epilogue": "^0.7.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^5.1.0",
+    "sequelize": "^4.35.2",
+    "sqlite3": "^3.1.13",
+    "swagger": "^0.7.5",
+    "swagger-parser": "^4.1.0",
+    "swagger-ui": "^3.12.0",
+    "swagger-ui-dist": "^3.13.0"
+  },
+  "peerDependencies": {
+    "sequelize": "^4.35.2"
+  }
+}
